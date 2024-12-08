@@ -3,7 +3,7 @@
 ## Getting Started
 rye is required for run this project easily.
 ```sh
-rye run server
+rye sync
 ```
 
 
