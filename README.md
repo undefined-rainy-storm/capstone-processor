@@ -1,3 +1,5 @@
 # capstone-processor
 
-Describe your project here.
+```sh
+rye run server
+```
