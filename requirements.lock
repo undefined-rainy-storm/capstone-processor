@@ -14,6 +14,8 @@ absl-py==2.1.0
     # via keras
     # via tensorboard
     # via tensorflow
+aniso8601==9.0.1
+    # via flask-restful
 astunparse==1.6.3
     # via tensorflow
 blinker==1.9.0
@@ -25,6 +27,9 @@ charset-normalizer==3.4.0
 click==8.1.7
     # via flask
 flask==3.1.0
+    # via capstone-processor
+    # via flask-restful
+flask-restful==0.3.9
     # via capstone-processor
 flatbuffers==24.3.25
     # via tensorflow
@@ -87,6 +92,8 @@ protobuf==5.29.1
     # via tensorflow
 pygments==2.18.0
     # via rich
+pytz==2024.2
+    # via flask-restful
 requests==2.32.3
     # via tensorflow
 rich==13.9.4
@@ -96,6 +103,7 @@ setuptools==75.6.0
     # via tensorflow
 six==1.17.0
     # via astunparse
+    # via flask-restful
     # via google-pasta
     # via tensorboard
     # via tensorflow
