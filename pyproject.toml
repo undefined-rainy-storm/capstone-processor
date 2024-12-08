@@ -3,7 +3,7 @@ name = "capstone-processor"
 version = "0.1.0"
 description = "Add your description here"
 authors = [
-    { name = "Arim Mo", email = "_@" },
+    { name = "Arim Mo", email = "memoarim01@gmail.com" },
     { name = "Jonghyeon Park", email = "belline0124@gmail.com" }
 ]
 dependencies = [
