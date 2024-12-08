@@ -1,0 +1,33 @@
+[project]
+name = "capstone-processor"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Jonghyeon Park", email = "belline0124@gmail.com" }
+]
+dependencies = [
+    "flask==3.1.0",
+    "tensorflow==2.18.0",
+    "numpy==2.0.2",
+    "pillow>=11.0.0",
+    "opencv-python>=4.10.0.84",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.rye.scripts]
+server = "rye run python src/capstone_processor/server.py"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/capstone_processor"]
