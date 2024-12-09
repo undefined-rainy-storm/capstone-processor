@@ -2,12 +2,13 @@ from enum import Enum
 
 class Emotions(Enum):
     ANGRY = "angry"
+    CONTEMPT = "contempt"
     DISGUST = "disgust"
     FEAR = "fear"
     HAPPY = "happy"
+    NEUTRAL = "neutral"
     SAD = "sad"
     SURPRISE = "surprise"
-    NEUTRAL = "neutral"
 
     @classmethod
     def from_index(cls, index):

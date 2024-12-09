@@ -1,6 +1,3 @@
-# def hello() -> str:
-#     return "Hello from capstone-processor!"
-
 from flask import Flask
 from flask_restful import Api
 
